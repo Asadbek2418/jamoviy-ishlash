@@ -5,3 +5,152 @@
     width: 100%;
     max-width: 1400px;
 }
+.home1-navbar__card p{
+    color: #30922F;
+    font-size: 22px;
+}
+.home1-navbar__card{
+width:457px ;
+    height: 364px;
+   
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px gray;
+  margin-top: 70px;
+padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.home1-navbar h1{
+    margin-top: 60px;
+}
+.pp{
+    width: 73px; 
+    height: 66px;
+    padding: 10px;
+    background-color: #30922F;
+font-size: 22px;
+color: white !important;
+padding-top: 20px;
+margin-left: 320px;
+position: absolute;
+top: 0;
+
+}
+.home1-navbar__card img{
+    width: 191px;
+    height: 234px;
+    margin-top: 40px;
+}
+.asal{
+    margin-top: 90px;
+}
+.kidzo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.asal  h3{
+    color: #30922F;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.asal  h2{
+    color:#E96023 ;
+    font-size: 50px !important;
+}
+.asal span{
+    color: #E96023;
+    font-size: 30px;
+}
+.asal del{
+margin-left: 90px;
+margin-top: 20px;
+}
+.asal p{
+    margin-left: 90px;
+    font-size: 22px !important;
+}
+.home1-navbar__cards{
+    display: grid;
+    grid-template-columns: repeat( 3,1fr);
+    gap: 10px;
+}
+@media (max-width:1300px) {
+    .home1-navbar__cards{
+        grid-template-columns: auto auto;
+        justify-content: center !important;
+      
+    }
+}
+@media (max-width:1000px) {
+    .home1-navbar__cards {
+        grid-template-columns: auto ;
+        justify-content: center !important;
+
+    }
+}
+.he{
+    background-color:yellow ;
+    padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   margin-top: 200px !important;
+    width: 100%;
+}
+.home1-ohac h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.home1-ohac p{
+    font-size: 24px;
+    margin-top: 50px;
+}
+.home1-ohac button{
+    width: 216px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: yellow;
+    border: none;
+   margin-top: 70px;
+   margin-left: 600px;
+}
+@media (max-width:810px) {
+    .home1-ohac button {
+        margin-left: 150px;
+    }
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.cards{
+display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-top: 90px;
+}
+.hov{
+    margin-top: 100px;
+
+}
+@media (max-width:1400px) {
+    .cards{
+        grid-template-columns: auto;
+    }
+    .card{
+        justify-content: center;
+    }
+}
+.but{
+    width: 292px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    background-color: yellow;
+    font-size: 20px;
+    margin-top: 60px;
+   
+}
